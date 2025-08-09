@@ -6,6 +6,10 @@
   --breakpoint-lg: 1024px;
   --breakpoint-xl: 1280px;
   --breakpoint-2xl: 1536px;
+
+  --font-josefin-sans: "Josefin Sans", sans-serif;
+  --font-roboto: "Roboto", sans-serif;
+  --font-philosopher: "Philosopher", sans-serif;
 }
 
 *{
@@ -16,6 +20,7 @@
 
 body{
   background-color: #F9F9F9;
+  font-family: var(--font-josefin-sans);
 }
 
 .gradient1{
