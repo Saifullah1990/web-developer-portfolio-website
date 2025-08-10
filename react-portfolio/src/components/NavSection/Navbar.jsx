@@ -21,13 +21,13 @@ const Navbar = () => {
           alt="site-logo"
           className="w-auto h-10 md:h-15 cursor-pointer contrast-150"
         />
-        <div className={`w-1/2 ${menuOpen ? "sm:max-lg:block" : "sm:max-lg:hidden"} lg:block`}>
-            <ul className="sm:max-lg:w-full flex flex-col lg:flex-row py-4 gap-2 text-center    lg:justify-around sm:absolute sm:top-[12%] left-[50%] -translate-x-[50%] lg:relative lg:text-md sm:text-lg lg:bg-inherit sm:bg-cyan-600/20 backdrop-blur-lg">
+        <div className={`w-1/2 ${menuOpen ? "sm:max-lg:block" : "sm:max-lg:hidden"} lg:block z-99`}>
+            <ul className="sm:max-lg:w-full flex flex-col lg:flex-row py-4 gap-2 text-center lg:justify-around sm:absolute sm:top-[10%] left-[50%] -translate-x-[50%] lg:relative lg:text-md sm:text-lg lg:bg-inherit sm:bg-cyan-700/50 backdrop-blur-lg">
             {navLinks.map((item, index) => (
                 <li key={index} className="font-medium group">
                 <a
                     href={`#${item.id}`}
-                    className=" text-xl cursor-pointer text-gray-900 hover:text-cyan-600 transition-all duration-500"
+                    className=" text-xl cursor-pointer text-gray-900 hover:text-white transition-all duration-500"
                 >
                     {item.title}
                 </a>
