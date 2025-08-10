@@ -10,6 +10,8 @@
   --font-josefin-sans: "Josefin Sans", sans-serif;
   --font-roboto: "Roboto", sans-serif;
   --font-philosopher: "Philosopher", sans-serif;
+
+  --bg-color: #F9F9F9
 }
 
 *{
@@ -18,7 +20,7 @@
 }
 
 body{
-  background-color: #F9F9F9;
+  background-color: var(--bg-color);
   font-family: var(--font-josefin-sans);
 }
 
